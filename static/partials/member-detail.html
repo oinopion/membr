@@ -1,0 +1,22 @@
+<div class="row main-header">
+
+    <div class="col-xs-2 header-side">
+        <a ng-href="#/">Cancel</a>
+    </div>
+    <h2 class="col-xs-8">
+        {{ member.name }}
+    </h2>
+
+    <div class="col-xs-2 header-side">
+        <a ng-href="#/{{ member.id }}/edit" class="danger">Edit</a>
+    </div>
+</div>
+
+<div class="row member-detail">
+    <dl class="col-xs-offset-1 col-xs-10">
+        <dt>Name</dt>
+        <dd>{{ member.name }}</dd>
+        <dt>Notes</dt>
+        <dd>{{ member.note }}</dd>
+    </dl>
+</div>

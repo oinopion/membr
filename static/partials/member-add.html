@@ -1,0 +1,30 @@
+<div class="row main-header">
+    <div class="col-xs-3 header-side">
+        <a ng-href="#/">Cancel</a>
+    </div>
+    <h2 class="col-xs-6">
+        New Member
+    </h2>
+
+    <div class="col-xs-3 header-side">
+        <a ng-click="addMember()"><b>Done</b></a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+        <form class="form">
+            <div class="form-group">
+                <label for="member-name">Name</label>
+                <input ng-model="name" id="member-name"
+                       class="form-control" placeholder="John Appleseed">
+            </div>
+            <div class="form-group">
+                <label for="member-note">Special Notes</label>
+                <textarea ng-model="note" id="member-note"
+                          rows="4" class="form-control"
+                          placeholder="Pays only 100PLN"></textarea>
+            </div>
+        </form>
+    </div>
+</div>

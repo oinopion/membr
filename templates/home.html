@@ -1,0 +1,25 @@
+{% extends 'skeleton.html' %}
+{% load staticfiles %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'lib/bootstrap-3.0.3/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+
+    <script src="{% static "lib/jquery-1.10.2.min.js" %}"></script>
+    <script src="{% static "lib/angular-1.2.5.min.js" %}"></script>
+    <script src="{% static "lib/angular-route-1.2.5.min.js" %}"></script>
+    <script src="{% static "lib/angular-touch-1.2.5.min.js" %}"></script>
+
+    <script src="{% static "js/app.js" %}"></script>
+    <script src="{% static "js/services.js" %}"></script>
+    <script src="{% static "js/controllers.js" %}"></script>
+{% endblock %}
+
+{% block html_attrs %}ng-app="membrApp"{% endblock %}
+{% block body_attrs %}{% endblock %}
+
+{% block body %}
+    <div class="view-container ">
+        <div ng-view class="view-frame container"></div>
+    </div>
+{% endblock %}

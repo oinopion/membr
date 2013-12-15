@@ -1,0 +1,6 @@
+*.pyc
+conf/membr.conf
+conf/gun.py
+public
+media
+venv

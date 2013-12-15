@@ -1,0 +1,18 @@
+<div class="row main-header">
+
+    <div class="col-xs-2 header-side"></div>
+    <h2 class="col-xs-8">
+        Members
+    </h2>
+
+    <div class="col-xs-2 header-side">
+        <a ng-href="#/add" class="add-sign">+</a>
+    </div>
+</div>
+
+<ul class="row members list-unstyled">
+    <li ng-repeat="member in members" class="member">
+        <a ng-href="#/{{ member.id }}">{{ member.name }}</a>
+    </li>
+</ul>
+

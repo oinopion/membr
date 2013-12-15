@@ -1,0 +1,44 @@
+body {
+    background-color: #eeeeee;
+    font-size: 170%;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: #129FEA;
+}
+
+a.danger {
+    color: #b92c28;
+}
+
+.main-header {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    position: relative;
+    /*margin-bottom: 0.4em;*/
+}
+
+.main-header h2 {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.main-header .header-side {
+    margin: 0.8em 0 0.4em;
+    line-height: 1.5em;
+
+}
+
+.add-sign {
+    font-size: 200%;
+    line-height: 0;
+}
+
+.members .member {
+    padding: 12px 1em;
+    border-bottom: 1px solid #cccccc;
+}
